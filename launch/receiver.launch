@@ -1,0 +1,3 @@
+<launch>
+  <node name="receiver_node" pkg="soft_manipulator" type="recv.py" output="screen"></node>
+</launch>
