@@ -2,6 +2,11 @@
 
 Ros package for the three segment soft robotic manipulator
 
+<p align="center">
+		<img src="SofaArm/images/soft_arm.png">
+</p>
+
+
  ## Installing ROS
 
  Instructions for installing ROS Melodic in Ubuntu 18.04: http://wiki.ros.org/melodic/Installation/Ubuntu
@@ -16,7 +21,9 @@ Ros package for the three segment soft robotic manipulator
 
  ## Installing the SOFA simulator
 
-To run the example:
+Website: https://www.sofa-framework.org/download/
+
+After downloading, move the folder SoftArm to 'SOFA_v19.06.99_custom_Linux_v5.1/plugins/SoftRobots/docs/tutorials'
 
 The example consists of a soft robotic arm which can be manipualted with mouse interaction. The pose of the manipulator tip is published on the topic "softarm/pose"
 
@@ -29,9 +36,6 @@ The example consists of a soft robotic arm which can be manipualted with mouse i
 
 
 
-
-A RosReceiver is added in the sofa scene to listen to this second topic and propagate the values to 
-the second mechanical object. 
 
 
 
