@@ -25,6 +25,8 @@ Website: https://www.sofa-framework.org/download/
 
 After downloading, move the folder SoftArm to 'SOFA_v19.06.99_custom_Linux_v5.1/plugins/SoftRobots/docs/tutorials'
 
+ ## Running the example
+
 The example consists of a soft robotic arm which can be manipualted with mouse interaction. The pose of the manipulator tip is published on the topic "softarm/pose"
 
 1. Run the SOFA simulator and open 'eth_scene4.pyscn'
